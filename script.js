@@ -3,7 +3,18 @@ let nombre = prompt('Por favor ingresa tu nombre: ');
 let apellido = prompt('Por favor ingresa tu apellido: ');
 
 function suma(numero1, numero2) {
-    return numero1 + numero2
+   switch (operacion) {
+    case "suma":
+      return num1 + num2;
+    case "resta":
+      return num1 - num2;
+    case "multiplicacion":
+      return num1 * num2; 
+    case "division":
+      return num2 !== 0 ? num / num2 : "Error: division por cero"
+    default:        
+    return "Operacion no valida"
+}
 }
 
 if (nombre === "Jona" && apellido === "Gonzalez") {
