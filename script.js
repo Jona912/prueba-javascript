@@ -2,7 +2,7 @@
 let nombre = prompt('Por favor ingresa tu nombre: ');
 let apellido = prompt('Por favor ingresa tu apellido: ');
 
-function operar(num1, num2, operacion) {
+function suma(num1, num2, operacion) {
    switch (operacion) {
     case "suma":
       return num1 + num2;
