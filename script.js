@@ -36,3 +36,11 @@ if (nombre === "Jona" && apellido === "Gonzalez") {
     <p style="color: red;">Acceso denegado. Solo usuarios autorizados pueden ingresar.</p>
   `;
 }
+
+let ensaladaDeFrutas = ['manzana', 'banana', 'anana', 'naranja', 'kiwi'] ;
+
+console.log(`La ensalada de fruta contiene: ${ensaladaDeFrutas}`);
+
+for (let i = 0; i < ensaladaDeFrutas.length; i++) {
+console.info (`Las frutas que hay en la ensalada son: ${ensaladaDeFrutas[i]}`);
+}
